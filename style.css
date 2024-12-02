@@ -112,10 +112,10 @@ nav{
 
 .nav-wrapper li a{
     text-decoration: none;
-    color:var(--secondary-text);
+    color:var(--primary-color);
     transition: color 0.5s;
-    font-weight: 900;
-    padding: 0 20px;
+    font-weight: 700;
+    padding: 0 30px;
     position: relative;
     text-transform: uppercase;
     transition: ease-in-out 0.5s;
@@ -240,7 +240,7 @@ nav{
     margin-right: auto;
     width: 300px;
     height: 5vh;
-    color: var(--secondary-text);
+    color: var(--primary-color);
     transition: 0.5s;
     cursor: pointer;
 }
@@ -253,7 +253,7 @@ nav{
     text-transform: uppercase;
 }
 .service-top h2 span{
-    color: grey;
+    color: var(--secondary-text);
     text-transform: uppercase;
 
 }
@@ -268,6 +268,10 @@ nav{
     text-align: center;
     margin-top: 25px;
     font-size: 1.5rem;
+}
+
+#service .sub-service{
+    color: var(--primary-color);
 }
 
 
@@ -355,7 +359,7 @@ nav{
     margin-right: auto;
     width: 300px;
     height: 5vh;
-    color:var(--secondary-text);
+    color:var(--primary-color);
     transition: 0.5s;
     cursor: pointer;
 }
@@ -366,7 +370,7 @@ nav{
 
 
 .portfolio-top h2 span{
-    color: grey;
+    color: var(--secondary-text);
     text-transform: uppercase;
 
 }
@@ -383,6 +387,10 @@ nav{
     text-align: center;
     margin-top: 25px;
     font-size: 1.5rem;
+}
+
+#portfolio .sub-portfolio{
+    color: var(--primary-color);
 }
 
 .gallery {
