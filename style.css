@@ -331,7 +331,7 @@ nav{
 
 .service-items h3:hover{
     color: rgb(88,39,18);
-    letter-spacing: .7rem;
+    letter-spacing: .02rem;
 }
 
 .service-items p {
