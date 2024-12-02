@@ -31,8 +31,8 @@ body{
 }
 
 #theme-switch{
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     padding: 0;
     border-radius: 50%;
     background-color: var(--base-color);
@@ -40,7 +40,9 @@ body{
     justify-content: center;
     align-items: center;
     position: fixed;
-    left: 20px ;
+    position: fixed;
+    top: 5px;
+    left: 5px;
 }
 
 #theme-switch{
@@ -485,7 +487,22 @@ nav{
     color: #ccc;
 }
 
-
+.whatsapp-float {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    background-color: #25D366;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    /* box-shadow: 2px 2px 5px rgba(0,0,0,0.3); */
+  }
 
 
 /* General Footer Styling */
