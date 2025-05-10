@@ -426,12 +426,6 @@ nav{
     border-radius: 5px; /* Add slight rounding for a modern look */
 }
 
-/* Media query for desktop view */
-@media screen and (min-width: 1024px) {
-    .gallery {
-        grid-template-columns: repeat(6, 1fr); /* Force 6 columns on desktop */
-    }
-}
 
 /* Contact begins */
 /* General Styles for Contact Section */
