@@ -215,13 +215,18 @@ nav{
     font-family: Arial, sans-serif;
     color:var(--primary-color);
     padding:.5rem 0;
+    font-weight: 400;
+    font-family: "Tagesschrift", system-ui;
+    font-style: normal;
 }
 
 .home .content .text{
-    font-size: 17px;
+    font-size: 13px;
     color:var(--primary-color);
-    padding:.5rem 0;
-    font-family: 'Roboto', sans-serif;
+    padding: .2rem 1rem;
+    margin-left: -13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 
