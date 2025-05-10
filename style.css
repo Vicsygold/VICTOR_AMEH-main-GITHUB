@@ -626,7 +626,7 @@ nav{
 
     .nav-wrapper li{margin-top: 40px;}
     .nav-wrapper li a{
-        padding: 10px;
+        padding: 25px;
         color: white;
     }
     .open, .close{display: block}
@@ -638,7 +638,7 @@ nav{
         position: relative;
         justify-items: center;
         margin-left: 30px;
-        padding: 20px 0px;
+        padding: 30px 0px;
         align-content: center;
     }
     
