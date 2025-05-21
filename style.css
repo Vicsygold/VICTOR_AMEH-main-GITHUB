@@ -77,6 +77,8 @@ body{
     font-size: 30px;
     text-transform: uppercase;
     transition: ease-in-out 0.5s;
+    font-weight: normal;
+    font-family: 'Clash Display', sans-serif; 
  }
 
  .brand h1 span{
@@ -110,11 +112,14 @@ nav{
     text-decoration: none;
     color:var(--primary-color);
     transition: color 0.5s;
-    font-weight: 700;
+    font-weight: bold;
     padding: 0 30px;
     position: relative;
     text-transform: uppercase;
     transition: ease-in-out 0.5s;
+    font-family: 'Clash Display', sans-serif; /* Use your font style */
+    font-weight: normal;
+    font-weight: 600;
 }
 
 .nav-wrapper li a:hover{
@@ -234,7 +239,7 @@ nav{
 
 /* service begin */
 #service {
-    margin-top: 600px;
+    margin-top: 60px;
     width: 100%;
     height: fit-content;
 }
