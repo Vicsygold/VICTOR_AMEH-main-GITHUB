@@ -6,9 +6,9 @@
 
 :root{
     --base-color: rgb(255, 255, 255);
-    --secondary-color: rgba(212, 77, 19, 0.833);
+    --secondary-color: rgb(96,45,24);
     --text-color: #111;
-    --secondary-text: rgba(212, 77, 19, 0.833);
+    --secondary-text: rgb(96,45,24);
     --primary-color: #111;
     --hover: rgb(226, 205, 205);
       background-color: rgb(255, 255, 255);
@@ -19,7 +19,7 @@
 .darkmode{
     --base-color: #111;
     --text-color: rgb(255, 255, 255);
-    --secondary-text:rgba(212, 77, 19, 0.833);
+    --secondary-text:rgb(96,45,24);
     --primary-color:rgb(255, 255, 255);
     --hover: rgb(226, 205, 205);
       background-color: #111;
