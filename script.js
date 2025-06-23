@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // 2. Initialize Typed.js for the hero section animation
     const options = {
-        strings: ["a Front-End Developer.", "a Tech Instructor.", "a Graphics Designer."],
+        strings: ["a Front-End Developer.", "a Tech Instructor.", "a Data Analyst."],
         typeSpeed: 50,
         backSpeed: 25,
         backDelay: 1500,
