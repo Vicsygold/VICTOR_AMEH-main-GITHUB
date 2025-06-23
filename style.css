@@ -313,6 +313,36 @@ section {
 .footer .social-links a:hover { color: var(--secondary-color); }
 .footer .text-center { width: 100%; margin-top: 40px; border-top: 1px solid #444; padding-top: 20px; }
 
+/* =================== */
+/* FOOTER DARK MODE FIX */
+/* =================== */
+
+.darkmode .footer {
+    background-color: #0d0d2b; /* Use the deep blue for the footer background */
+    color: #EAEAEA;           /* Use the standard light text color from dark mode */
+}
+
+/* Ensure footer headings and links are also visible */
+.darkmode .footer .column h5 {
+    color: #FFFFFF;
+}
+
+.darkmode .footer .column ul li a {
+    color: #ccc;
+}
+
+/* Make sure social links are visible */
+.darkmode .footer .social-links a {
+    color: #FFFFFF;
+}
+
+/* Keep the hover effect consistent */
+.darkmode .footer .column ul li a:hover,
+.darkmode .footer .social-links a:hover {
+    color: var(--secondary-color);
+}
+
+
 /* RESPONSIVE DESIGN */
 @media screen and (max-width: 992px) {
     section { padding: 80px 5%; }
