@@ -166,7 +166,7 @@ section {
     justify-content: center;
     gap: 2rem;
     min-height: 90vh;
-    padding-left: 150px;
+    /* padding-left: 150px; */
 }
 .home .content { flex: 1; }
 .home .image { flex: 0.8; text-align: center; }
